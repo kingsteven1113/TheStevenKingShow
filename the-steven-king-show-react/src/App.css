@@ -69,3 +69,9 @@
 h1 {
   color: #10c400;
 }
+body {
+  background-color: #282828;
+}
+#root {
+  padding: 0px;
+}

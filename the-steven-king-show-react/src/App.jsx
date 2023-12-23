@@ -32,7 +32,7 @@ function App() {
 
   return (
     <>
-    <div className='TheBody'>
+
     <div className="progressMainWrapper">
         <div
           className="progressMainStyle"
@@ -217,7 +217,7 @@ function App() {
         risus quis varius quam quisque. Id faucibus nisl tincidunt eget nullam
         non nisi est.</p>
         </div>
-        </div>
+        
     </>
   )
 }
