@@ -32,15 +32,43 @@ function App() {
 
   return (
     <>
+    <div className='NavBar' id='NavBar'>
+      <div className='NavBarLogo'>
+        <img src="Logo.svg" alt="" />
+      </div>
+      <nav>
+          <li>
+            <a href="">About Me</a>
+          </li>
+          <li>
+          <a href="">Projects</a>
+          </li>
+          <li>
+          <a href="">Aspirations</a>
+          </li>
+        </nav>
+    </div>
 
     <div className="progressMainWrapper">
         <div
           className="progressMainStyle"
           style={{ height: `${scrollTop}%` }}
         ></div>
+      
+      </div>
+      <div className='HeroSection'>
+        <div className='HeroSectionImage'>
+          <img src="Hello Bubbles.svg" alt="" />
+        </div>
+        <div className='HeroSectionInformation'>
+        <h1>I'm Steven King</h1>
+        <h2>Front End Developer and UX/UI Designer</h2>
+        <p></p>
+        </div>
       </div>
     <div className='BodyContent'>
-      <h1>Welcome to the Steven King Show</h1>
+      
+
       
       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Quam lacus
