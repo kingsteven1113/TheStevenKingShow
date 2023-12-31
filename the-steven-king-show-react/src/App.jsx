@@ -47,6 +47,7 @@ function App() {
           <a href="">Aspirations</a>
           </li>
         </nav>
+        <div className='ContactButton'>Contact Us</div>
     </div>
 
     <div className="progressMainWrapper">

@@ -90,3 +90,9 @@ body {
   display: inline;
   padding-right: 20px;
 }
+.ContactButton {
+  background-color: white;
+  border-radius: 34px;
+  color: #282828;
+
+}
