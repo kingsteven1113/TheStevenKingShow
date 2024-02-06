@@ -17,12 +17,14 @@
   }
   .NavBar li {
     display: inline;
-    padding-right: 35px;
-    padding-left: 35px;
+    padding-right: 65px;
+    padding-left: 65px;
     font-family: 'Jost', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 
 
   }

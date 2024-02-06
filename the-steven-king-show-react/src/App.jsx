@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import LandingPage from './Components/LandingPage/LandingPage'
 import NavBar from './Components/NavBar/NavBar'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   
@@ -11,10 +12,14 @@ function App() {
   return (
     
     <>
-    
+    <BrowserRouter>
     <NavBar></NavBar>
 
-    <LandingPage></LandingPage>    
+    <Routes>
+      <Route path='/' element={<LandingPage />}></Route>
+    </Routes>
+    </BrowserRouter>
+        
     </>
   )
 }
