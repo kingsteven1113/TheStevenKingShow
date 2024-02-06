@@ -31,16 +31,16 @@
  
   .ContactButton {
     background-color: white;
-    border-radius: 34px;
+    border-radius: 30px;
     color: #282828;
     font-family: 'Jost', sans-serif;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 800;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
   
   }

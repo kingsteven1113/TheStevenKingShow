@@ -65,14 +65,27 @@ text-align: left;
     border-radius: 10px;
   }
   .BodyContent {
-    padding-left: 30px;
-    padding-right: 50px;
+    display: flex;
+    text-align: right;
+    margin-right: 8%;
+    
+  }
+  .FirstBubble {
+    margin-top: 200px;
+  }
+
+  .GitHubBubbleHero {
+    margin-top: -50px;
+  }
+  .LinkedInBubbleHero {
+    margin-top: 200px;
   }
 
   h1 {
     color: #fff;
     font-family: 'Jost', sans-serif;
     font-size: 64px;
+    letter-spacing: 3px;
   }
   body {
     background-image: linear-gradient(200deg, #333333, #3E4B21, #325A3D);
@@ -89,4 +102,12 @@ text-align: left;
   }
   .HeroSection {
     display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+    justify-content: space-between;
+    
+  }
+  .HeroSectionInformation {
+    padding-top: 85px;
+    margin-left: 85px;
   }

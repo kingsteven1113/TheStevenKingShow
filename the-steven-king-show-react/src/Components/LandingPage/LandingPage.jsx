@@ -1,5 +1,9 @@
 import "./LandingPage.css"
 import Hello from "../../assets/HelloBubbles.svg"
+import GitHubBubble from '../../assets/GitHub.svg'
+import LinkedInBubble from '../../assets/LinkedIn.svg'
+import EmailBubble from '../../assets/Email.svg'
+import Bubble from '../../assets/Bubble.svg'
 
 const LandingPage = () => {
 
@@ -16,7 +20,11 @@ const LandingPage = () => {
         </div>
       </div>
     <div className='BodyContent'>
-
+    <img className="FirstBubble" src={Bubble} alt="" />
+    <img className="GitHubBubbleHero" src={GitHubBubble} alt="" />
+    <img className="LinkedInBubbleHero" src={LinkedInBubble} alt="" />
+    <img className="EmailBubbleHero" src={EmailBubble} alt="" />
+    <img className="LastBubble" src={Bubble} alt="" />
         </div>
         </> 
     )
