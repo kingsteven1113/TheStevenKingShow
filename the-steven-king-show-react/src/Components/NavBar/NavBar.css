@@ -1,0 +1,44 @@
+.NavBar {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+  .NavBarLogo {
+    float: left;
+
+  }
+  .NavBar nav {
+    padding-top: auto;
+    padding-bottom: auto;
+    text-align: center;
+  }
+  .NavBar li {
+    display: inline;
+    padding-right: 35px;
+    padding-left: 35px;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+
+
+  }
+ 
+  .ContactButton {
+    background-color: white;
+    border-radius: 34px;
+    color: #282828;
+    font-family: 'Jost', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  
+  }
