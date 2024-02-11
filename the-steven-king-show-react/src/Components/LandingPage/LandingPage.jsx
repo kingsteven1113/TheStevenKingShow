@@ -4,6 +4,14 @@ import GitHubBubble from '../../assets/GitHub.svg'
 import LinkedInBubble from '../../assets/LinkedIn.svg'
 import EmailBubble from '../../assets/Email.svg'
 import Bubble from '../../assets/FirstBubble.svg'
+import HTMLIcon from '../../assets/HTML Icon.svg'
+import ReactIcon from '../../assets/React Icon.svg'
+import CSSIcon from '../../assets/CSS Icon.svg'
+import JSIcon from '../../assets/JavaScript Icon.svg'
+import FigmaIcon from '../../assets/Figma Icon.svg'
+import AdobeIcon from '../../assets/Adobe Icon.svg'
+import AboutMePhoto from '../../assets/PhotoGroup.svg'
+
 
 const LandingPage = () => {
 
@@ -40,6 +48,17 @@ const LandingPage = () => {
       <br />
     Here are a few current technologies I have worked with:
     </p>
+    <div className="Technologies">
+    <img src={HTMLIcon} alt="" />
+    <img src={ReactIcon} alt="" />
+    <img src={CSSIcon} alt="" />
+    <img src={JSIcon} alt="" />
+    <img src={FigmaIcon} alt="" />
+    <img src={AdobeIcon} alt="" />
+    </div>
+    </div>
+    <div className="AboutMePhoto">
+      <img src={AboutMePhoto} alt="" />
     </div>
     </div>
     </section>
