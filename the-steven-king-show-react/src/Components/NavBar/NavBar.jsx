@@ -40,16 +40,14 @@ const NavBar = () => {
               <img src={Logo}alt="" />
           </div>
         <nav>
-           
-            
             <li>
-             About Me
+              <a href="/">About Me</a>
             </li>
             <li>
-            Projects
+            <a href="/">Projects</a>
             </li>
             <li>
-            Aspirations
+            <a href="/">Aspirations</a>
             </li>
           </nav>
           <div className='ContactButton'>Contact Me</div>

@@ -1,18 +1,23 @@
 .NavBar {
   display: flex;
-  margin: 10px;
+  margin: 25px;
+  margin-top: 25px;
+  padding: 20px 30px 20px 30px;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
   position: sticky;
   top: 10px;
   z-index: 100;
+  background-color: #00000070;
+  border-radius: 50px;
     
   }
-  .NavBarLogo {
-    float: left;
 
+  .NavBarLogo img {
+    width: 150px;
   }
+  
   .NavBar nav {
     padding-top: auto;
     padding-bottom: auto;
@@ -29,9 +34,16 @@
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 3px;
-    
-
-
+  }
+  .NavBar a {
+    text-decoration: none;
+  }
+  .NavBar a:active{
+    text-decoration: none;
+  }
+  .NavBar a:visited{
+    text-decoration: none;
+    color:#fff;
   }
   .progressMainWrapper {
     background-color: rgb(72, 88, 0);
