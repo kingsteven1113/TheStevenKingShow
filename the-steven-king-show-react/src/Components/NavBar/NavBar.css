@@ -1,9 +1,12 @@
 .NavBar {
-    display: flex;
-    margin: 10px;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: sticky;
+  top: 10px;
+  z-index: 100;
     
   }
   .NavBarLogo {
@@ -14,6 +17,7 @@
     padding-top: auto;
     padding-bottom: auto;
     text-align: center;
+    
   }
   .NavBar li {
     display: inline;
@@ -25,8 +29,27 @@
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 3px;
+    
 
 
+  }
+  .progressMainWrapper {
+    background-color: rgb(72, 88, 0);
+    height: 100vh;
+    position: sticky;
+    top: 10px;
+    left: 0;
+    z-index: 1;
+    width: 15px;
+    border-radius: 10px;
+    float: right;
+  }
+
+  .progressMainStyle {
+    height: 15px;
+    background-color: #10c400;
+    width: 100%;
+    border-radius: 10px;
   }
  
   .ContactButton {

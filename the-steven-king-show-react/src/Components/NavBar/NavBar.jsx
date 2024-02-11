@@ -36,10 +36,12 @@ const NavBar = () => {
     return (
         <>
         <div className='NavBar' id='NavBar'>
-        <div className='NavBarLogo'>
-          <img src={Logo}alt="" />
-        </div>
+          <div className="NavBarLogo">
+              <img src={Logo}alt="" />
+          </div>
         <nav>
+           
+            
             <li>
              About Me
             </li>
@@ -60,6 +62,8 @@ const NavBar = () => {
           ></div>
         
         </div>
+
+        
 
         </>
        
