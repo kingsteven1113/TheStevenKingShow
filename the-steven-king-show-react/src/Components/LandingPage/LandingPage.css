@@ -8,6 +8,20 @@ text-shadow: 0px 0px 6.2px #9AFF6D60;
 font-size: 40px;
 text-align: left;
 }
+h4 {
+  color: white;
+  font-family: 'Jost', sans-serif;
+  font-weight: 700;
+  text-shadow: 0px 0px 6.2px #2c3d2460;
+  font-size: 40px;
+  text-align: left;
+  }
+
+section {
+  margin-top: 200px;
+}
+
+
 
   
   .logo {
@@ -133,6 +147,7 @@ text-align: left;
     margin-left: 8%;
     margin-right: 8%;
     display: flex;
+    align-items: center;
   }
   
   .AboutMeTitle {
@@ -167,8 +182,31 @@ text-align: left;
     text-align: center;
     width: 50%;
     
+    
   }
   .AboutMePhoto img{
     width: 65%;
     
+  }
+
+  .Projects {
+    margin-top: 100px;
+    margin-left: 8%;
+    margin-right: 8%;
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .ProjectsTitle {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .ProjectsLine {
+    height: 4px;
+    width: 227px;
+    background-color: #5BB14B;
+    margin-left: 25px;
   }

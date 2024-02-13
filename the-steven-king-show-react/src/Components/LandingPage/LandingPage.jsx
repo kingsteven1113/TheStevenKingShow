@@ -17,7 +17,7 @@ const LandingPage = () => {
 
     return (
     <>
-    <section>
+    
      <div className='HeroSection'>
         <div className='HeroSectionImage'>
           <img src={Hello} alt="" />
@@ -35,32 +35,44 @@ const LandingPage = () => {
     <a href="mailto:kingsteven1113@gmail.com"><img className="EmailBubbleHero" src={EmailBubble} alt="" /></a>
     <img className="LastBubble" src={Bubble} alt="" />
     </div>
-    <div className="AboutMe">
-    <div className="AboutMeInformation">
-    <div className="AboutMeTitle">
-        <h2>About Me</h2>
-        <div className="AboutMeLine"></div>
-    </div>
-    <p>
-    I’m Steven King, I’m 22, originally went to college for Graphic Design and now pivoting into UX Design and Front End Development. <br />
-      <br />
-    I realized I enjoyed UX Design and Developing software one semester before I finished college. I finished out my degree and set out on my journey of teaching myself UX Design Principles and various development technologies. And here I am now! <br />
-      <br />
-    Here are a few current technologies I have worked with:
-    </p>
-    <div className="Technologies">
-    <img src={HTMLIcon} alt="" />
-    <img src={ReactIcon} alt="" />
-    <img src={CSSIcon} alt="" />
-    <img src={JSIcon} alt="" />
-    <img src={FigmaIcon} alt="" />
-    <img src={AdobeIcon} alt="" />
-    </div>
-    </div>
-    <div className="AboutMePhoto">
-      <img src={AboutMePhoto} alt="" />
-    </div>
-    </div>
+    <section id="About Me">
+      <div className="AboutMe">
+        <div className="AboutMeInformation">
+        <div className="AboutMeTitle">
+            <h2>About Me</h2>
+            <div className="AboutMeLine"></div>
+        </div>
+          <p>
+          I’m Steven King, I’m 22, originally went to college for Graphic Design and now pivoting into UX Design and Front End Development. <br />
+            <br />
+          I realized I enjoyed UX Design and Developing software one semester before I finished college. I finished out my degree and set out on my journey of teaching myself UX Design Principles and various development technologies. And here I am now! <br />
+            <br />
+          Here are a few current technologies I have worked with:
+          </p>
+          <div className="Technologies">
+          <img src={HTMLIcon} alt="" />
+          <img src={ReactIcon} alt="" />
+          <img src={CSSIcon} alt="" />
+          <img src={JSIcon} alt="" />
+          <img src={FigmaIcon} alt="" />
+          <img src={AdobeIcon} alt="" />
+          </div>
+        </div>
+        <div className="AboutMePhoto">
+          <img src={AboutMePhoto} alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="Projects">
+      <div className="Projects">
+      <div className="ProjectsTitle">
+            <h2>Projects</h2>
+            <div className="ProjectsLine"></div>
+        </div>
+        
+      </div>
+      
     </section>
     
         </> 
