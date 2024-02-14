@@ -21,7 +21,15 @@ section {
   margin-top: 200px;
 }
 
-
+a:visited {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
 
   
   .logo {
@@ -175,7 +183,7 @@ section {
   }
   .Technologies img {
     width: 75px;
-    filter: drop-shadow(0px 0px 20px #123f05);
+    border-radius: 50px 0 0 50px;
   }
 
   .AboutMePhoto {
@@ -193,8 +201,6 @@ section {
     margin-top: 100px;
     margin-left: 8%;
     margin-right: 8%;
-    display: flex;
-    align-items: center;
     
   }
 
@@ -209,4 +215,57 @@ section {
     width: 227px;
     background-color: #5BB14B;
     margin-left: 25px;
+  }
+  .ProjectInformationParagraph {
+    color: white;
+    font-size: 20px;
+  }
+  .ProjectOne {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  .ProjectOneInformation {
+    width: 50%;
+  }
+  .ProjectOneImage {
+    display: flex;
+    width: 50%;
+    border: transparent;
+    border-radius: 200px;
+    filter: drop-shadow(0px 0px 20px #4f7244);
+    
+  }
+
+  .ProjectOneIcons {
+    display: flex;
+    gap: 10px;
+    filter: drop-shadow(0px 0px 20px #4f7244);
+  }
+
+  .ProjectOneIcons img {
+    width: 75px; 
+  }
+
+  .ProjectNumber {
+    background-color: #7EB22F;
+    width: 15%;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 64px;
+    border-radius: 50px 0 0 50px;
+    align-items: center;
+  }
+
+  .ProjectNumber span {
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .ProjectOneImage img {
+    width: 85%;
+    object-fit: cover;
+    border-radius: 0px 50px 50px 0px;
   }

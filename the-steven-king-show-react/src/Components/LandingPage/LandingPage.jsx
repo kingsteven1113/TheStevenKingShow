@@ -11,6 +11,7 @@ import JSIcon from '../../assets/JavaScript Icon.svg'
 import FigmaIcon from '../../assets/Figma Icon.svg'
 import AdobeIcon from '../../assets/Adobe Icon.svg'
 import AboutMePhoto from '../../assets/PhotoGroup.svg'
+import CJStones from '../../assets/CJStones.png'
 
 
 const LandingPage = () => {
@@ -71,8 +72,66 @@ const LandingPage = () => {
             <div className="ProjectsLine"></div>
         </div>
         
-      </div>
+        {/* Project One - CJ Stones */}
       
+      <div className="ProjectOne">
+        <div className="ProjectOneInformation">
+          <a href="https://www.cjstones.com/"><h4>CJ Stones</h4></a>
+          <p className="ProjectInformationParagraph">As Lead Web Designer/Developer, I was tasked with redesigning the website to modernize its appearance and develop any additions to the site necessary to improve the user experience and solve pain points for both users and staff.</p>
+          <div className="ProjectOneIcons">
+          <img src={HTMLIcon} alt="" />
+          <img src={AdobeIcon} alt="" />
+          <img src={CSSIcon} alt="" />
+          <img src={JSIcon} alt="" />
+          </div>
+        </div>
+
+        <div className="ProjectOneImage">
+          <div className="ProjectNumber"><span>01</span></div>
+          <img src={CJStones} alt="" />
+        </div>
+      </div>
+
+        {/* Project Two - CJ Stones */}
+
+      <div className="ProjectOne">
+        <div className="ProjectOneInformation">
+          <a href="https://www.cjstones.com/"><h4>CJ Stones</h4></a>
+          <p className="ProjectInformationParagraph">As Lead Web Designer/Developer, I was tasked with redesigning the website to modernize its appearance and develop any additions to the site necessary to improve the user experience and solve pain points for both users and staff.</p>
+          <div className="ProjectOneIcons">
+          <img src={HTMLIcon} alt="" />
+          <img src={AdobeIcon} alt="" />
+          <img src={CSSIcon} alt="" />
+          <img src={JSIcon} alt="" />
+          </div>
+        </div>
+
+        <div className="ProjectOneImage">
+          <div className="ProjectNumber"><span>01</span></div>
+          <img src={CJStones} alt="" />
+        </div>
+      </div>
+
+        {/* Project Three - CJ Stones */}
+
+      <div className="ProjectOne">
+        <div className="ProjectOneInformation">
+          <a href="https://www.cjstones.com/"><h4>CJ Stones</h4></a>
+          <p className="ProjectInformationParagraph">As Lead Web Designer/Developer, I was tasked with redesigning the website to modernize its appearance and develop any additions to the site necessary to improve the user experience and solve pain points for both users and staff.</p>
+          <div className="ProjectOneIcons">
+          <img src={HTMLIcon} alt="" />
+          <img src={AdobeIcon} alt="" />
+          <img src={CSSIcon} alt="" />
+          <img src={JSIcon} alt="" />
+          </div>
+        </div>
+
+        <div className="ProjectOneImage">
+          <div className="ProjectNumber"><span>01</span></div>
+          <img src={CJStones} alt="" />
+        </div>
+      </div>
+      </div>
     </section>
     
         </> 
