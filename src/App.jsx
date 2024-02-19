@@ -12,7 +12,7 @@ function App() {
   return (
     
     <>
-    <BrowserRouter basename='/TheStevenKingShow/'>
+    <BrowserRouter>
     <NavBar></NavBar>
     <Routes>
       <Route path='/TheStevenKingShow/' element={<LandingPage />}></Route>
