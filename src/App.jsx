@@ -12,10 +12,10 @@ function App() {
   return (
     
     <>
-    <BrowserRouter>
+    <BrowserRouter basename='/TheStevenKingShow'>
     <NavBar></NavBar>
     <Routes>
-      <Route path='/' element={<LandingPage />}></Route>
+      <Route path='/TheStevenKingShow' element={<LandingPage />}></Route>
     </Routes>
     </BrowserRouter>
         
