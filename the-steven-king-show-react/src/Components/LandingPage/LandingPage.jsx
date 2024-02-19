@@ -107,7 +107,7 @@ const LandingPage = () => {
         </div>
 
         <div className="ProjectOneImage">
-          <div className="ProjectNumber"><span>01</span></div>
+          <div className="ProjectNumber"><span>02</span></div>
           <img src={CJStones} alt="" />
         </div>
       </div>
@@ -127,7 +127,7 @@ const LandingPage = () => {
         </div>
 
         <div className="ProjectOneImage">
-          <div className="ProjectNumber"><span>01</span></div>
+          <div className="ProjectNumber"><span>03</span></div>
           <img src={CJStones} alt="" />
         </div>
       </div>
