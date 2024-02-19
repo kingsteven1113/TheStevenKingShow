@@ -96,8 +96,8 @@ const LandingPage = () => {
 
       <div className="ProjectOne">
         <div className="ProjectOneInformation">
-          <a href="https://www.cjstones.com/"><h4>CJ Stones</h4></a>
-          <p className="ProjectInformationParagraph">As Lead Web Designer/Developer, I was tasked with redesigning the website to modernize its appearance and develop any additions to the site necessary to improve the user experience and solve pain points for both users and staff.</p>
+          <a href="http://kingsteven1113.github.io/fecapstoneproject"><h4>StayHealthy</h4></a>
+          <p className="ProjectInformationParagraph">As Frontend Developer and Designer, I was tasked with developing a site that allows patients of StayHealthy to book appointments, cancel appointments, keep track of appointments and allow for a review system for each doctor. This is the live project.</p>
           <div className="ProjectOneIcons">
           <img src={HTMLIcon} alt="" />
           <img src={AdobeIcon} alt="" />
