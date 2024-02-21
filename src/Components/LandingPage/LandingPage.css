@@ -14,8 +14,10 @@ h4 {
   font-weight: 700;
   text-shadow: 0px 0px 6.2px #2c3d2460;
   font-size: 40px;
-  text-align: left;
+  
   }
+
+ 
 
 section {
   margin-top: 200px;
@@ -201,8 +203,10 @@ a {
     margin-top: 100px;
     margin-left: 8%;
     margin-right: 8%;
-    gap: 24px;
-    display: block;
+    gap: 100px;
+    display: flex;
+    flex-direction: column;
+    
     
   }
 
@@ -270,4 +274,66 @@ a {
     width: 85%;
     object-fit: cover;
     border-radius: 0px 50px 50px 0px;
+  }
+
+  .Aspirations {
+    margin-top: 100px;
+    margin-left: 8%;
+    margin-right: 8%;
+    gap: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .AspirationsTitle {
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .AspirationsInformation {
+    display: flex;
+  }
+
+  .AspirationOne {
+      width: 33%;
+      background-color: #7EB22F ;
+      letter-spacing: 2px;
+      display: flex;
+      flex-direction: column;
+      
+  }
+
+  .AspirationOne i{
+    align-items: end;
+    justify-content: end;
+}
+
+.AspirationOne h4{
+  text-align: center;
+}
+
+
+
+   .TimelineOne {
+    background-color: #2D2D2D ;
+    text-align: center;
+   }
+
+  .AspirationTwo {
+    width: 34%;
+    background-color: #5A8D2A ;
+    letter-spacing: 2px;
+    text-align: center;
+    display: flex;
+      flex-direction: column;
+  }
+
+  .AspirationThree {
+    width: 33%;
+    background-color: #2B6E22 ;
+    letter-spacing: 2px;
+    text-align: center;
+    display: flex;
+      flex-direction: column;
   }

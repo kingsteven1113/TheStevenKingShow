@@ -12,6 +12,7 @@ import FigmaIcon from '../../assets/Figma Icon.svg'
 import AdobeIcon from '../../assets/Adobe Icon.svg'
 import AboutMePhoto from '../../assets/PhotoGroup.svg'
 import CJStones from '../../assets/CJStones.png'
+import StayHealthy from '../../assets/StayHealthy.png'
 
 
 const LandingPage = () => {
@@ -100,15 +101,16 @@ const LandingPage = () => {
           <p className="ProjectInformationParagraph">As Frontend Developer and Designer, I was tasked with developing a site that allows patients of StayHealthy to book appointments, cancel appointments, keep track of appointments and allow for a review system for each doctor. This is the live project.</p>
           <div className="ProjectOneIcons">
           <img src={HTMLIcon} alt="" />
-          <img src={AdobeIcon} alt="" />
           <img src={CSSIcon} alt="" />
           <img src={JSIcon} alt="" />
+          <img src={ReactIcon} alt="" />
+          <img src={FigmaIcon} alt="" />
           </div>
         </div>
 
         <div className="ProjectOneImage">
           <div className="ProjectNumber"><span>02</span></div>
-          <img src={CJStones} alt="" />
+          <img src={StayHealthy} alt="" />
         </div>
       </div>
 
@@ -131,6 +133,44 @@ const LandingPage = () => {
           <img src={CJStones} alt="" />
         </div>
       </div>
+      </div>
+    </section>
+
+    <section id="Aspirations">
+      <div className="Aspirations">
+        <div className="AspirationsTitle">
+          <h2>Aspirations</h2>
+          <div className="ProjectsLine"></div>
+        </div>
+        <div className="AspirationsInformation">
+          <div className="AspirationOne">
+            <div className="JobTitle">
+            <h4>Jr Front End Engineer</h4>
+            <i class="material-icons">&#xe148;</i>
+            </div>
+            <div className="TimelineOne">
+              <h4>Right Now</h4>
+            </div>
+          </div>
+          <div className="AspirationTwo">
+          <div className="JobTitle">
+            <h4>UX Engineer</h4>
+            <i class="material-icons">&#xe148;</i>
+            </div>
+            <div className="TimelineOne">
+              <h4> In 1 - 3 Years</h4>
+            </div>
+          </div>
+          <div className="AspirationThree">
+          <div className="JobTitle">
+            <h4>Senior UX Engineer</h4>
+            <i class="material-icons">&#xe148;</i>
+            </div>
+            <div className="TimelineOne">
+              <h4>In 5 - 10 Years</h4>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     
