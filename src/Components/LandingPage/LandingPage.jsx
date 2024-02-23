@@ -157,6 +157,7 @@ const LandingPage = () => {
             <h4>UX Engineer</h4>
             <i class="material-icons">&#xe148;</i>
             </div>
+            
             <div className="TimelineOne">
               <h4> In 1 - 3 Years</h4>
             </div>
