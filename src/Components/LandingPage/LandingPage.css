@@ -301,13 +301,13 @@ a {
       letter-spacing: 2px;
       display: flex;
       flex-direction: column;
+      justify-content: space-between;
+      padding-top: 20px;
       
   }
 
-  .AspirationOne i{
-    align-items: end;
-    justify-content: end;
-}
+
+
 
 .AspirationOne h4{
   text-align: center;
@@ -315,9 +315,9 @@ a {
 
 
 
-   .TimelineOne {
-    background-color: #2D2D2D ;
-    text-align: center;
+.TimelineOne {
+background-color: #2D2D2D ;
+text-align: center;
    }
 
   .AspirationTwo {
@@ -326,7 +326,9 @@ a {
     letter-spacing: 2px;
     text-align: center;
     display: flex;
-      flex-direction: column;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
   }
 
   .AspirationThree {
@@ -335,7 +337,28 @@ a {
     letter-spacing: 2px;
     text-align: center;
     display: flex;
-      flex-direction: column;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+    height: 500px;
   }
 
-  
+.panel-collapse { 
+  display: none; 
+}
+.panel-collapse:target { 
+  display: block; 
+}
+#collapse1 {
+  width: 80%;
+}
+#collapse2 {
+  width: 80%;
+}
+#collapse3 {
+  width: 80%;
+}
+a {
+  color: #fff;
+  filter: drop-shadow(none);
+}
