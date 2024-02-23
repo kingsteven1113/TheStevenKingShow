@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.css'
 import "./LandingPage.css"
 import Hello from "../../assets/HelloBubbles.svg"
 import GitHubBubble from '../../assets/GitHub.svg'
@@ -142,35 +143,38 @@ const LandingPage = () => {
           <h2>Aspirations</h2>
           <div className="ProjectsLine"></div>
         </div>
-        <div className="AspirationsInformation">
-          <div className="AspirationOne">
-            <div className="JobTitle">
-            <h4>Jr Front End Engineer</h4>
+        <div className="AspirationsInformation panel-group">
+          <div className="AspirationOne panel panel-default">
+            <div className="JobTitle panel-heading">
+            <h4 className='panel-title'><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Jr Front End Engineer</a></h4>
             <i class="material-icons">&#xe148;</i>
             </div>
             <div className="TimelineOne">
               <h4>Right Now</h4>
             </div>
           </div>
-          <div className="AspirationTwo">
-          <div className="JobTitle">
-            <h4>UX Engineer</h4>
+          <div id="collapse1" class="panel-collapse collapse in"><p>test</p></div>
+          <div className="AspirationTwo panel panel-default">
+          <div className="JobTitle panel-heading">
+            <h4 className='panel-title'><a data-toggle="collapse" data-parent="#accordion" href="#collapse2">UX Engineer</a></h4>
             <i class="material-icons">&#xe148;</i>
             </div>
-            
             <div className="TimelineOne">
               <h4> In 1 - 3 Years</h4>
             </div>
           </div>
-          <div className="AspirationThree">
-          <div className="JobTitle">
-            <h4>Senior UX Engineer</h4>
+          <div id="collapse2" class="panel-collapse collapse in"><p>test</p></div>
+          <div className="AspirationThree panel panel-default">
+          <div className="JobTitle panel-heading">
+            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        Senior UX Engineer</a></h4>
             <i class="material-icons">&#xe148;</i>
             </div>
             <div className="TimelineOne">
               <h4>In 5 - 10 Years</h4>
             </div>
           </div>
+          <div id="collapse3" class="panel-collapse collapse in"><p>test</p></div>
         </div>
       </div>
     </section>
