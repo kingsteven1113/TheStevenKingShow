@@ -303,13 +303,21 @@ a {
       flex-direction: column;
       justify-content: space-between;
       padding-top: 20px;
-      
+      text-align: right;
   }
 
 
 
 
 .AspirationOne h4{
+  text-align: center;
+}
+
+.AspirationTwo h4{
+  text-align: center;
+}
+
+.AspirationThree h4{
   text-align: center;
 }
 
@@ -324,18 +332,39 @@ text-align: center;
     width: 34%;
     background-color: #5A8D2A ;
     letter-spacing: 2px;
-    text-align: center;
+    text-align: right;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding-top: 20px;
   }
 
+  .AspirationOne a {
+    padding-right: 20px;
+  }
+
+  .AspirationTwo a {
+    padding-right: 20px;
+  }
+  .AspirationThree a {
+    padding-right: 20px;
+  }
+
+  .AspirationTwo i {
+    font-size: 35px;
+  }
+  .AspirationThree i {
+    font-size: 35px;
+  }
+  .AspirationOne i {
+    font-size: 35px;
+  }
+
   .AspirationThree {
     width: 33%;
     background-color: #2B6E22 ;
     letter-spacing: 2px;
-    text-align: center;
+    text-align: right;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -343,11 +372,22 @@ text-align: center;
     height: 500px;
   }
 
+  @keyframes resize {
+    from {width: 0%;}
+    to {width: 80%;}
+  }
+
 .panel-collapse { 
-  display: none; 
+  display: none;
 }
 .panel-collapse:target { 
-  display: block; 
+  display: block;
+  width: 80%;
+  animation-name: resize;
+  animation-duration: 2s;
+  animation-direction: alternate;
+
+  
 }
 #collapse1 {
   width: 80%;
@@ -361,4 +401,10 @@ text-align: center;
 a {
   color: #fff;
   filter: drop-shadow(none);
+}
+
+.JobInfo {
+  padding: 25px;
+  background-color: #e0e0e0;
+  overflow: hidden;
 }

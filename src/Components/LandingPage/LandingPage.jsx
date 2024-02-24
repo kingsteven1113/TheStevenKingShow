@@ -153,7 +153,7 @@ const LandingPage = () => {
             <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><i class="material-icons">&#xe148;</i></a>
             </div>
             <div className="TimelineOne">
-              <h4>Right Now</h4>
+              <h4>Right <br></br> Now</h4>
             </div>
           </div>
           <div id="collapse1" class="JobInfo panel-collapse collapse in"><p>test</p></div>
@@ -163,7 +163,7 @@ const LandingPage = () => {
             <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"><i class="material-icons">&#xe148;</i></a>
             </div>
             <div className="TimelineOne">
-              <h4> In 1 - 3 Years</h4>
+              <h4> In 1 - 3 <br></br> Years</h4>
             </div>
           </div>
           <div id="collapse2" class="JobInfo panel-collapse collapse in"><p>test</p></div>
@@ -174,7 +174,7 @@ const LandingPage = () => {
         <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"><i class="material-icons">&#xe148;</i></a>
             </div>
             <div className="TimelineOne">
-              <h4>In 5 - 10 Years</h4>
+              <h4>In 5 - 10 <br></br> Years</h4>
             </div>
           </div>
           <div id="collapse3" class="JobInfo panel-collapse collapse in"><p>test</p></div>
