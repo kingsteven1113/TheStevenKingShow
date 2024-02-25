@@ -42,8 +42,8 @@ const LandingPage = () => {
     <a href="mailto:kingsteven1113@gmail.com"><img className="EmailBubbleHero" src={EmailBubble} alt="" /></a>
     <img className="LastBubble" src={Bubble} alt="" />
     </div>
-    <section id="About Me">
-      <div id='AboutMe' className="AboutMe">
+    <section id="AboutMe">
+      <div className="AboutMe">
         <div className="AboutMeInformation">
         <div className="AboutMeTitle">
             <h2>About Me</h2>
@@ -119,25 +119,6 @@ const LandingPage = () => {
         </div>
       </div>
 
-        {/* Project Three - CJ Stones */}
-
-      <div className="ProjectOne">
-        <div className="ProjectOneInformation">
-          <a href="https://www.cjstones.com/"><h4>CJ Stones</h4></a>
-          <p className="ProjectInformationParagraph">As Lead Web Designer/Developer, I was tasked with redesigning the website to modernize its appearance and develop any additions to the site necessary to improve the user experience and solve pain points for both users and staff.</p>
-          <div className="ProjectOneIcons">
-          <img src={HTMLIcon} alt="" />
-          <img src={AdobeIcon} alt="" />
-          <img src={CSSIcon} alt="" />
-          <img src={JSIcon} alt="" />
-          </div>
-        </div>
-
-        <div className="ProjectOneImage">
-          <div className="ProjectNumber"><span>03</span></div>
-          <img src={StayHealthy} alt="" />
-        </div>
-      </div>
       </div>
     </section>
 
@@ -151,10 +132,12 @@ const LandingPage = () => {
           <div className="AspirationOne panel panel-default">
             <div className="JobTitle panel-heading">
             <h4 className='panel-title'>Jr Front End Engineer</h4>
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><i class="material-icons">&#xe148;</i></a>
             </div>
+            <div className='TimelineButtonContainer'>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><i class="material-icons">&#xe148;</i></a>
             <div className="TimelineOne">
-              <h4>Right <br></br> Now</h4>
+              <h4 style={{margin: "0"}}>Right <br></br> Now</h4>
+            </div>
             </div>
           </div>
           <div id="collapse1" class="JobInfo panel-collapse collapse in">
@@ -172,10 +155,12 @@ const LandingPage = () => {
           <div className="AspirationTwo panel panel-default">
           <div className="JobTitle panel-heading">
             <h4 className='panel-title'>UX Engineer</h4>
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"><i class="material-icons">&#xe148;</i></a>
             </div>
+            <div className='TimelineButtonContainer'>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"><i class="material-icons">&#xe148;</i></a>
             <div className="TimelineOne">
-              <h4> In 1 - 3 <br></br> Years</h4>
+              <h4 style={{margin: "0"}}>In 1 - 3 <br></br> Years</h4>
+            </div>
             </div>
           </div>
           <div id="collapse2" class="JobInfo panel-collapse collapse in">
@@ -194,11 +179,14 @@ const LandingPage = () => {
           <div className="JobTitle panel-heading">
             <h4 class="panel-title">
         Senior UX Engineer</h4>
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"><i class="material-icons">&#xe148;</i></a>
             </div>
+            <div className='TimelineButtonContainer'>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"><i class="material-icons">&#xe148;</i></a>
             <div className="TimelineOne">
-              <h4>In 5 - 10 <br></br> Years</h4>
+              <h4 style={{margin: "0"}}>In 5 - 10 <br></br> Years</h4>
             </div>
+            </div>
+            
           </div>
           <div id="collapse3" class="JobInfo panel-collapse collapse in">
             <h5>Senior UX Engineer</h5>

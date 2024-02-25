@@ -7,6 +7,14 @@ function AboutMeScroll() {
   const AboutMe = document.getElementById("AboutMe");
   AboutMe.scrollIntoView(true);
 }
+function ProjectsScroll() {
+  const AboutMe = document.getElementById("Projects");
+  AboutMe.scrollIntoView(true);
+}
+function AspirationsScroll() {
+  const AboutMe = document.getElementById("Aspirations");
+  AboutMe.scrollIntoView(true);
+}
 
 const NavBar = () => {
 
@@ -49,13 +57,13 @@ const NavBar = () => {
               <a onClick={AboutMeScroll}>About Me</a>
             </li>
             <li>
-            <a onClick={() => window.scrollTo({ top: 1000, behavior: "smooth" })}>Projects</a>
+            <a onClick={ProjectsScroll}>Projects</a>
             </li>
             <li>
-            <a>Aspirations</a>
+            <a onClick={AspirationsScroll}>Aspirations</a>
             </li>
           </nav>
-          <div className='ContactButton'>Contact Me</div>
+          <a href="mailto:kingsteven1113@gmail.com"><div className='ContactButton'>Contact Me</div></a>
       </div>
   
       <div className="progressMainWrapper">
