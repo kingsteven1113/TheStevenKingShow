@@ -82,7 +82,7 @@ const LandingPage = () => {
       <div className="ProjectOne">
         <div className="ProjectOneInformation">
           <a href="https://www.cjstones.com/"><h4>CJ Stones</h4></a>
-          <p className="ProjectInformationParagraph">As Lead Web Designer/Developer, I was tasked with redesigning the website to modernize its appearance and develop any additions to the site necessary to improve the user experience and solve pain points for both users and staff.</p>
+          <p className="ProjectInformationParagraph">As Founding Web Developer, I was tasked with redesigning the website to modernize its appearance and develop any additions to the site necessary to improve the user experience and solve pain points for both users and staff. Including a search system that allows you to search the images by name on the page and automatically updates itself whenever a new image is added to the page. It is also intgrated with a CMS known as Thryv.</p>
           <div className="ProjectOneIcons">
           <img src={HTMLIcon} alt="" />
           <img src={AdobeIcon} alt="" />
@@ -134,7 +134,7 @@ const LandingPage = () => {
 
         <div className="ProjectOneImage">
           <div className="ProjectNumber"><span>03</span></div>
-          <img src={CJStones} alt="" />
+          <img src={StayHealthy} alt="" />
         </div>
       </div>
       </div>
@@ -156,7 +156,18 @@ const LandingPage = () => {
               <h4>Right <br></br> Now</h4>
             </div>
           </div>
-          <div id="collapse1" class="JobInfo panel-collapse collapse in"><p>test</p></div>
+          <div id="collapse1" class="JobInfo panel-collapse collapse in">
+            <h5>Jr. Front End Engineer</h5>
+            <br />
+            <h6 style={{marginTop: "30px"}}>What I am looking for from this role:</h6>
+            <ul className='JobList'>
+              <li>Mentorship to build on my skills and coding process</li>
+              <li>Development of my skills in real world scenarios</li>
+              <li>Having an effect on the team and the product produced</li>
+              <li>To utilize my skillset effectively in the work I do</li>
+              <li>Learn new technologies in the industry</li>
+            </ul>
+          </div>
           <div className="AspirationTwo panel panel-default">
           <div className="JobTitle panel-heading">
             <h4 className='panel-title'>UX Engineer</h4>
@@ -166,7 +177,18 @@ const LandingPage = () => {
               <h4> In 1 - 3 <br></br> Years</h4>
             </div>
           </div>
-          <div id="collapse2" class="JobInfo panel-collapse collapse in"><p>test</p></div>
+          <div id="collapse2" class="JobInfo panel-collapse collapse in">
+            <h5>UX Engineer</h5>
+            <br />
+            <h6 style={{marginTop: "30px"}}>What I am looking for from this role:</h6>
+            <ul className='JobList'>
+              <li>Mentor a intern/Jr Developer</li>
+              <li>Take on new tasks in the development process</li>
+              <li>Encourage a hardworking and effective work culture and make impactful decisions</li>
+              <li>To expand my skillset to meet the needs of new work requirements</li>
+              <li>To continue to learn new technologies in the industry</li>
+            </ul>
+            </div>
           <div className="AspirationThree panel panel-default">
           <div className="JobTitle panel-heading">
             <h4 class="panel-title">
@@ -177,11 +199,18 @@ const LandingPage = () => {
               <h4>In 5 - 10 <br></br> Years</h4>
             </div>
           </div>
-          <div id="collapse3" class="JobInfo panel-collapse collapse in"><p>test</p></div>
+          <div id="collapse3" class="JobInfo panel-collapse collapse in">
+            <h5>Senior UX Engineer</h5>
+            <br />
+            <h6 style={{marginTop: "30px"}}>What I am looking for from this role:</h6>
+            <ul className='JobList'>
+              <li>Mentor multiple engineers to improve effectiveness of the team</li>
+              <li>Make impactful decisions and be part of the end to end process of development</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
-    
         </> 
     )
 }

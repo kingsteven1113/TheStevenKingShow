@@ -41,13 +41,13 @@ const NavBar = () => {
           </div>
         <nav>
             <li>
-              <a href="/">About Me</a>
+              <a onClick={() => window.scrollTo({ top: 1000, behavior: "smooth" })}>About Me</a>
             </li>
             <li>
-            <a href="/">Projects</a>
+            <a onClick={() => window.scrollTo({ top: 1000, behavior: "smooth" })}>Projects</a>
             </li>
             <li>
-            <a href="/">Aspirations</a>
+            <a>Aspirations</a>
             </li>
           </nav>
           <div className='ContactButton'>Contact Me</div>

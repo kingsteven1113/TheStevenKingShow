@@ -5,6 +5,7 @@ import './App.css'
 import NavBar from './Components/NavBar/NavBar'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LandingPage from './Components/LandingPage/LandingPage'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   
@@ -17,6 +18,7 @@ function App() {
     <Routes>
       <Route path='/TheStevenKingShow' element={<LandingPage />}></Route>
     </Routes>
+    <Footer></Footer>
     </BrowserRouter>
         
     </>

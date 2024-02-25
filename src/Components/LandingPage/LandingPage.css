@@ -17,10 +17,27 @@ h4 {
   
   }
 
+  h5 { 
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    
+    }
+
+    
+  h6 { 
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    
+    }
+  
+
  
 
 section {
-  margin-top: 200px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 a:visited {
@@ -114,12 +131,14 @@ a {
     font-family: 'Jost', sans-serif;
     font-size: 64px;
     letter-spacing: 3px;
+    font-weight: 700;
   }
   h2 {
     color: #fff;
     font-family: 'Jost', sans-serif;
     font-size: 56px;
     letter-spacing: 3px;
+    font-weight: 700;
   }
   body {
     background-image: linear-gradient(200deg, #333333, #3E4B21, #325A3D);
@@ -140,12 +159,15 @@ a {
     margin-left: 8%;
     margin-right: 8%;
     justify-content: space-between;
-    padding-top: 50px;
+    margin-top: -20px;
     
   }
   .HeroSectionInformation {
     padding-top: 85px;
     margin-left: 85px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
   }
   .HeroSectionImage {
     margin-top: 100px;
@@ -173,6 +195,9 @@ a {
   }
   .AboutMeInformation {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
   }
 
   .AboutMeInformation p {
@@ -214,6 +239,7 @@ a {
     display: flex;
     align-items: center;
     
+    
   }
   
   .ProjectsLine {
@@ -230,6 +256,10 @@ a {
     display: flex;
     align-items: center;
     gap: 50px;
+  }
+
+  .ProjectOne h4 {
+    text-decoration: underline;
   }
   .ProjectOneInformation {
     width: 50%;
@@ -311,14 +341,33 @@ a {
 
 .AspirationOne h4{
   text-align: center;
+  text-shadow: none;
 }
 
 .AspirationTwo h4{
   text-align: center;
+  text-shadow: none;
 }
 
 .AspirationThree h4{
   text-align: center;
+  text-shadow: none;
+}
+
+
+.AspirationOne h5{
+  text-shadow: none;
+  color: #000;
+}
+
+.AspirationTwo h5{
+  text-shadow: none;
+  color: #000;
+}
+
+.AspirationThree h5{
+  text-shadow: none;
+  color: #000;
 }
 
 
@@ -373,21 +422,21 @@ text-align: center;
   }
 
   @keyframes resize {
-    from {width: 0%;}
-    to {width: 80%;}
+    from {width: 0%; display: none; color: #e0e0e0;}
+    to {width: 80%; color: #000;}
   }
 
 .panel-collapse { 
   display: none;
+  resize: none;
 }
 .panel-collapse:target { 
   display: block;
   width: 80%;
+  height: 500px;
   animation-name: resize;
-  animation-duration: 2s;
-  animation-direction: alternate;
-
-  
+  animation-duration: 1.25s;
+  animation-direction: normal;
 }
 #collapse1 {
   width: 80%;
@@ -407,4 +456,13 @@ a {
   padding: 25px;
   background-color: #e0e0e0;
   overflow: hidden;
+}
+
+.JobList {
+  font-family: 'Jost', sans-serif;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
 }
