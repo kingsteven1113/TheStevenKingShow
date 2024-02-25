@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import "./LandingPage.css"
+import { useRef } from 'react';
 import Hello from "../../assets/HelloBubbles.svg"
 import GitHubBubble from '../../assets/GitHub.svg'
 import LinkedInBubble from '../../assets/LinkedIn.svg'
@@ -42,7 +43,7 @@ const LandingPage = () => {
     <img className="LastBubble" src={Bubble} alt="" />
     </div>
     <section id="About Me">
-      <div className="AboutMe">
+      <div id='AboutMe' className="AboutMe">
         <div className="AboutMeInformation">
         <div className="AboutMeTitle">
             <h2>About Me</h2>

@@ -3,7 +3,10 @@ import "./NavBar.css"
 import Logo from '../../assets/Logo.svg'
 
 
-
+function AboutMeScroll() {
+  const AboutMe = document.getElementById("AboutMe");
+  AboutMe.scrollIntoView(true);
+}
 
 const NavBar = () => {
 
@@ -32,6 +35,8 @@ const NavBar = () => {
     // 
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+  
+  
 
     return (
         <>
@@ -41,7 +46,7 @@ const NavBar = () => {
           </div>
         <nav>
             <li>
-              <a onClick={() => window.scrollTo({ top: 1000, behavior: "smooth" })}>About Me</a>
+              <a onClick={AboutMeScroll}>About Me</a>
             </li>
             <li>
             <a onClick={() => window.scrollTo({ top: 1000, behavior: "smooth" })}>Projects</a>
