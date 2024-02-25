@@ -63,7 +63,7 @@ const NavBar = () => {
             <a onClick={AspirationsScroll}>Aspirations</a>
             </li>
           </nav>
-          <a href="mailto:kingsteven1113@gmail.com"><div className='ContactButton'>Contact Me</div></a>
+          <a href="mailto:kingsteven1113@gmail.com"><div title="Contact Me through email!" className='ContactButton'>Contact Me</div></a>
       </div>
   
       <div className="progressMainWrapper">
