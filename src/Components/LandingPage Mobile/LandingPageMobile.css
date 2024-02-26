@@ -231,7 +231,7 @@ a {
     gap: 100px;
     display: flex;
     flex-direction: column;
-    
+    align-items: start;
     
   }
 
@@ -254,6 +254,7 @@ a {
   }
   .ProjectOne {
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 50px;
   }
@@ -326,10 +327,11 @@ a {
     display: flex;
     border-radius: 25px;
     overflow: hidden;
+    flex-direction: column;
   }
 
   .AspirationOne {
-      width: 33%;
+      width: 100%;
       background-color: #7EB22F ;
       letter-spacing: 2px;
       display: flex;
@@ -337,6 +339,7 @@ a {
       justify-content: space-between;
       padding-top: 20px;
       text-align: right;
+      height: 40vh;
   }
 
 
@@ -381,7 +384,7 @@ text-align: center;
    }
 
   .AspirationTwo {
-    width: 34%;
+    width: 100%;
     background-color: #5A8D2A ;
     letter-spacing: 2px;
     text-align: right;
@@ -389,6 +392,7 @@ text-align: center;
     flex-direction: column;
     justify-content: space-between;
     padding-top: 20px;
+    height: 40vh;
   }
 
   .AspirationOne a {
@@ -413,7 +417,7 @@ text-align: center;
   }
 
   .AspirationThree {
-    width: 33%;
+    width: 100%;
     background-color: #2B6E22 ;
     letter-spacing: 2px;
     text-align: right;
@@ -421,13 +425,13 @@ text-align: center;
     flex-direction: column;
     justify-content: space-between;
     padding-top: 20px;
-    height: 60vh;
+    height: 40vh;
     margin: 0;
   }
 
   @keyframes resize {
-    from {width: 0%; display: none; color: #e0e0e0;}
-    to {width: 80%; color: #000;}
+    from {height: 0vh; color: #e0e0e0;}
+    to {height: 60vh; color: #000;}
   }
 
 .panel-collapse { 
@@ -436,20 +440,20 @@ text-align: center;
 }
 .panel-collapse:target { 
   display: block;
-  width: 80%;
+  width: 100vw;
   height: 60vh;
   animation-name: resize;
   animation-duration: 1.25s;
   animation-direction: normal;
 }
 #collapse1 {
-  width: 80%;
+  width: 100%;
 }
 #collapse2 {
-  width: 80%;
+  width: 100%;
 }
 #collapse3 {
-  width: 80%;
+  width: 100%;
 }
 a {
   color: #fff;
