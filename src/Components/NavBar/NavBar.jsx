@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import "./NavBar.css"
 import Logo from '../../assets/Logo.svg'
+import { IoIosMenu } from "react-icons/io";
 
 
 function AboutMeScroll() {
@@ -55,6 +56,7 @@ const NavBar = () => {
         <nav>
             <li>
               <a onClick={AboutMeScroll}>About Me</a>
+              
             </li>
             <li>
             <a onClick={ProjectsScroll}>Projects</a>
@@ -64,6 +66,7 @@ const NavBar = () => {
             </li>
           </nav>
           <a href="mailto:kingsteven1113@gmail.com"><div title="Contact Me through email!" className='ContactButton'>Contact Me</div></a>
+          <IoIosMenu className="Burger" />
       </div>
   
       <div className="progressMainWrapper">

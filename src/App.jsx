@@ -6,7 +6,7 @@ import NavBar from './Components/NavBar/NavBar'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LandingPage from './Components/LandingPage/LandingPage'
 import Footer from './Components/Footer/Footer'
-import LandingPageMobile from './Components/LandingPage Mobile/LandingPageMobile'
+
 
 function App() {
   
@@ -18,7 +18,6 @@ function App() {
     <NavBar></NavBar>
     <Routes>
       <Route path='/TheStevenKingShow' element={<LandingPage />}></Route>
-      <Route path='/' element={<LandingPageMobile />}></Route>
     </Routes>
     <Footer></Footer>
     </BrowserRouter>

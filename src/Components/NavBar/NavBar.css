@@ -1,3 +1,5 @@
+@media only screen and (min-width: 1263px) {
+
 .NavBar {
   display: flex;
   margin: 50px;
@@ -86,5 +88,120 @@
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 3px;
+  
+  }
+
+  .Burger {
+    font-size: 24px;
+    fill: #fff;
+    display: none;
+  }
+
+
+}
+
+
+/* Mobile Version */
+
+@media only screen and (max-width: 1262px) {
+
+  .NavBar {
+    display: flex;
+    margin: 50px;
+    margin-top: 25px;
+    padding: 20px 30px 20px 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    top: 10px;
+    z-index: 100;
+    background-color: #00000070;
+    border-radius: 50px;
+      
+    }
+  
+    .NavBarLogo img {
+      width: 150px;
+    }
+    
+    .NavBar nav {
+      padding-top: auto;
+      padding-bottom: auto;
+      text-align: center;
+      display: none;
+      
+    }
+    .NavBar li {
+      display: inline;
+      padding-right: 65px;
+      padding-left: 65px;
+      font-family: 'Jost', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+    }
+    .NavBar a {
+      text-decoration: none;
+      color: #fff;
+    }
+    .NavBar a:active{
+      text-decoration: none;
+      color: #fff;
+    }
+    .NavBar a:visited{
+      text-decoration: none;
+      color:#fff;
+    }
+    .NavBar li:hover{
+      text-decoration: none;
+      color:greenyellow;
+      cursor: pointer;
+    }
+    .progressMainWrapper {
+      background-color: rgb(72, 88, 0);
+      height: 98vh;
+      position: sticky;
+      top: 10px;
+      left: 0;
+      z-index: 1;
+      width: 15px;
+      border-radius: 10px;
+      float: right;
+      margin-right: 15px;
+      
+    }
+  
+    .progressMainStyle {
+      height: 15px;
+      background-color: #10c400;
+      width: 100%;
+      border-radius: 10px;
+    }
+   
+    .ContactButton {
+      background-color: white;
+      border-radius: 30px;
+      color: #282828;
+      font-family: 'Jost', sans-serif;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-right: 30px;
+      padding-left: 30px;
+      font-size: 16px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      display: none;
+    
+    }
+
+    .Burger {
+      font-size: 48px;
+      fill: #fff;
+      cursor: pointer;
+    }
   
   }
