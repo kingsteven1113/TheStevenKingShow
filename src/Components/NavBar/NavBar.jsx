@@ -56,7 +56,6 @@ const NavBar = () => {
         <nav>
             <li>
               <a onClick={AboutMeScroll}>About Me</a>
-              
             </li>
             <li>
             <a onClick={ProjectsScroll}>Projects</a>
@@ -67,6 +66,14 @@ const NavBar = () => {
           </nav>
           <a href="mailto:kingsteven1113@gmail.com"><div title="Contact Me through email!" className='ContactButton'>Contact Me</div></a>
           <IoIosMenu className="Burger" />
+      </div>
+      <div>
+        <nav>
+          <li><a onClick={AboutMeScroll}>About Me</a></li>
+          <li><a onClick={ProjectsScroll}>Projects</a></li>
+          <li><a onClick={AspirationsScroll}>Aspirations</a></li>
+          <li><a href="mailto:kingsteven1113@gmail.com"><div title="Contact Me through email!" className='ContactButton'>Contact Me</div></a></li>
+        </nav>
       </div>
   
       <div className="progressMainWrapper">
