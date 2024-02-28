@@ -97,6 +97,11 @@
     display: none;
   }
 
+  .MobileNav {
+    display: none;
+  }
+
+
 
 }
 
@@ -107,7 +112,7 @@
 
   .NavBar {
     display: flex;
-    margin: 50px;
+    margin: 50px 50px 0px 50px;
     margin-top: 25px;
     padding: 20px 30px 20px 30px;
     align-items: center;
@@ -116,7 +121,7 @@
     position: sticky;
     top: 10px;
     z-index: 100;
-    background-color: #00000070;
+    background-color: #00000090;
     border-radius: 50px;
       
     }
@@ -197,11 +202,74 @@
       display: none;
     
     }
+    .ContactButton2 {
+      background-color: white;
+      border-radius: 0px 0px 30px 30px;
+      color: #282828;
+      font-family: 'Jost', sans-serif;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-right: 30px;
+      padding-left: 30px;
+      font-size: 16px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      text-align: center;
+      
+    
+    }
+    .ContactButton2:hover {
+      background-color: #282828;
+      color: #fff;
+
+    }
 
     .Burger {
       font-size: 48px;
       fill: #fff;
       cursor: pointer;
     }
+
+ 
+
+
+    .MobileNav {
+      position: sticky;
+      top: 98px;
+      z-index: 100;
+      margin: 0px 50px 50px 50px;
+    }
+    
+    .MobileNav nav {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      list-style: none;
+      background-color: #00000090;
+      border-radius: 0px 0px 30px 30px;
+      text-align: center;
+      font-family: 'Jost', sans-serif;
+      padding-top: 10px;
+    }
+
+    .MobileNav li {
+      font-size: 20px;
+      font-weight: 500;
+      color: #fff;
+    }
+    .MobileNav li:hover {
+      color:greenyellow;
+      cursor: pointer;
+    }
+    
   
+    .open {
+      display: block;
+    }   
+
+    .closed {
+      display: none;
+    }
+
   }

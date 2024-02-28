@@ -3,18 +3,41 @@ import "./NavBar.css"
 import Logo from '../../assets/Logo.svg'
 import { IoIosMenu } from "react-icons/io";
 
+const OpenMenu = () => {
+  const ToggleMenu = document.getElementById("MobileNav");
+  const OpenNav = document.getElementById("NavBar")
+  if (ToggleMenu.classList.contains("closed")) {
+    ToggleMenu.classList.remove("closed");
+    ToggleMenu.classList.add("open");
+    OpenNav.style.borderRadius = "50px 50px 0px 0px";
+    
+    
+  }
+  else {
+    ToggleMenu.classList.add("closed");
+    ToggleMenu.classList.remove("open");
+    OpenNav.style.borderRadius = "50px";
+  }
+}
 
 function AboutMeScroll() {
   const AboutMe = document.getElementById("AboutMe");
   AboutMe.scrollIntoView(true);
+  document.getElementById("MobileNav").classList.add("closed");
+  document.getElementById("NavBar").style.borderRadius = "50px";
 }
 function ProjectsScroll() {
   const AboutMe = document.getElementById("Projects");
   AboutMe.scrollIntoView(true);
+  document.getElementById("MobileNav").classList.add("closed");
+  document.getElementById("NavBar").style.borderRadius = "50px";
+
 }
 function AspirationsScroll() {
   const AboutMe = document.getElementById("Aspirations");
   AboutMe.scrollIntoView(true);
+  document.getElementById("MobileNav").classList.add("closed");
+  document.getElementById("NavBar").style.borderRadius = "50px";
 }
 
 const NavBar = () => {
@@ -65,14 +88,14 @@ const NavBar = () => {
             </li>
           </nav>
           <a href="mailto:kingsteven1113@gmail.com"><div title="Contact Me through email!" className='ContactButton'>Contact Me</div></a>
-          <IoIosMenu className="Burger" />
+          <IoIosMenu onClick={OpenMenu} className="Burger" />
       </div>
-      <div>
+      <div className="MobileNav closed" id="MobileNav">
         <nav>
           <li><a onClick={AboutMeScroll}>About Me</a></li>
           <li><a onClick={ProjectsScroll}>Projects</a></li>
           <li><a onClick={AspirationsScroll}>Aspirations</a></li>
-          <li><a href="mailto:kingsteven1113@gmail.com"><div title="Contact Me through email!" className='ContactButton'>Contact Me</div></a></li>
+          <a href="mailto:kingsteven1113@gmail.com"><div title="Contact Me through email!" className='ContactButton2'>Contact Me</div></a>
         </nav>
       </div>
   
