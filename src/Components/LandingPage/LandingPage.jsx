@@ -23,19 +23,17 @@ const OpenJFE = () => {
   const UXE = document.getElementById("UXE");
   const SUXE = document.getElementById("SUXE");
   if (JFE.classList.contains("JIclosed")) {
-    JFE.classList.remove("JIclosed");
-    JFE.classList.add("JIopen");
-    UXE.classList.add("JIclosed");
-    SUXE.classList.add("JIclosed");
+    JFE.classList.replace("JIclosed", "JIopen");
+    UXE.classList.replace("JIopen","JIclosed");
+    SUXE.classList.replace("JIopen","JIclosed");
+    
     
     
     
   }
   else {
-    JFE.classList.add("JIclosed");
-    JFE.classList.remove("JIopen");
-    UXE.classList.add("JIclosed");
-    SUXE.classList.add("JIclosed");
+    JFE.classList.replace("JIopen","JIclosed");
+    
     
   }
 }
@@ -45,19 +43,16 @@ const OpenUXE = () => {
   const UXE = document.getElementById("UXE");
   const SUXE = document.getElementById("SUXE");
   if (UXE.classList.contains("JIclosed")) {
-    UXE.classList.remove("JIclosed");
-    UXE.classList.add("JIopen");
-    JFE.classList.add("JIclosed");
-    SUXE.classList.add("JIclosed");
+    UXE.classList.replace("JIclosed", "JIopen");
+    JFE.classList.replace("JIopen","JIclosed");
+    SUXE.classList.replace("JIopen","JIclosed");
     
     
     
   }
   else {
-    UXE.classList.add("JIclosed");
-    UXE.classList.remove("JIopen");
-    JFE.classList.add("JIclosed");
-    SUXE.classList.add("JIclosed");
+    UXE.classList.replace("JIopen","JIclosed");
+    
     
   }
 }
@@ -67,18 +62,14 @@ const OpenSUXE = () => {
   const UXE = document.getElementById("UXE");
   const SUXE = document.getElementById("SUXE");
   if (SUXE.classList.contains("JIclosed")) {
-    SUXE.classList.remove("JIclosed");
-    SUXE.classList.add("JIopen");
-    JFE.classList.add("JIclosed");
-    UXE.classList.add("JIclosed");
+    SUXE.classList.replace("JIclosed", "JIopen");
+    JFE.classList.replace("JIopen","JIclosed");
+    UXE.classList.replace("JIopen","JIclosed");
     
     
   }
   else {
-    SUXE.classList.add("JIclosed");
-    SUXE.classList.remove("JIopen");
-    JFE.classList.add("JIclosed");
-    UXE.classList.add("JIclosed");
+    SUXE.classList.replace("JIopen","JIclosed");
     
   }
 }
@@ -206,7 +197,7 @@ const LandingPage = () => {
           </div>
           <div id="JFE" class="JobInfo JIclosed">
             <h5>Jr. Front End Engineer</h5>
-            <br />
+            
             <h6 style={{marginTop: "30px"}}>What I am looking for from this role:</h6>
             <ul className='JobList'>
               <li>Mentorship to build on my skills and coding process</li>
@@ -229,7 +220,7 @@ const LandingPage = () => {
           </div>
           <div id="UXE" class="JobInfo JIclosed">
             <h5>UX Engineer</h5>
-            <br />
+          
             <h6 style={{marginTop: "30px"}}>What I am looking for from this role:</h6>
             <ul className='JobList'>
               <li>Mentor a intern/Jr Developer</li>
@@ -254,7 +245,7 @@ const LandingPage = () => {
           </div>
           <div id="SUXE" class="JobInfo JIclosed">
             <h5>Senior UX Engineer</h5>
-            <br />
+        
             <h6 style={{marginTop: "30px"}}>What I am looking for from this role:</h6>
             <ul className='JobList'>
               <li>Mentor multiple engineers to improve effectiveness of the team</li>
