@@ -127,7 +127,8 @@
     }
   
     .NavBarLogo img {
-      width: 150px;
+      width: 25vw;
+      max-width: 150px;
     }
     
     .NavBar nav {
@@ -226,7 +227,7 @@
     }
 
     .Burger {
-      font-size: 48px;
+      font-size: 40px;
       fill: #fff;
       cursor: pointer;
     }
