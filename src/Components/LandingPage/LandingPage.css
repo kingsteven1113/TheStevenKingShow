@@ -347,16 +347,22 @@
     .AspirationOne h4{
       text-align: center;
       text-shadow: none;
+      padding-right: 10px;
+      padding-left: 10px;
     }
     
     .AspirationTwo h4{
       text-align: center;
       text-shadow: none;
+      padding-right: 10px;
+      padding-left: 10px;
     }
     
     .AspirationThree h4{
       text-align: center;
       text-shadow: none;
+      padding-right: 10px;
+      padding-left: 10px;
     }
     
     
@@ -553,37 +559,45 @@
  
   .BodyContent {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 50px;
-    margin-right: 10%;
-    justify-content: end;
+    justify-content: center;
     gap: 50px;
+    padding: 10px;
     
   }
   .FirstBubble {
     margin-top: 25px;
     padding: -10%;
-    width: 50px;
+    width: 8vw;
+    max-width: 55px;
     filter: drop-shadow(0px 0px 20px #123f05);
+    
     
   }
 
   .EmailBubbleHero {
     filter: drop-shadow(0px 0px 20px #123f05);
+    width: 20vw;
+    max-width: 150px;
 
   }
 
   .GitHubBubbleHero {
-    margin-top: -20px;
     filter: drop-shadow(0px 0px 20px #123f05);
+    width: 15vw;
+    max-width: 125px;;
   }
   .LinkedInBubbleHero {
     margin-top: 135px;
+    width: 17.5vw;
+    max-width: 135px;
     filter: drop-shadow(0px 0px 20px #123f05);
   }
   .LastBubble{
     margin-top: 135px;
-    margin-left: -40px;
-    width: 65px;
+    width: 10vw;
+    max-width: 65px;
     filter: drop-shadow(0px 0px 20px #123f05);
   }
 
@@ -645,17 +659,18 @@
   
   .AboutMeTitle {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: left;
     
   }
   .AboutMeLine {
     height: 4px;
     width: 227px;
     background-color: #5BB14B;
-    margin-left: 25px;
+    
   }
   .AboutMeInformation {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -667,6 +682,7 @@
   }
   .Technologies {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
   }
   .Technologies img {
@@ -677,6 +693,7 @@
   .AboutMePhoto {
     text-align: center;
     width: 50%;
+    display: none;
     
     
   }
@@ -698,16 +715,17 @@
 
   .ProjectsTitle {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: left;
     
     
   }
   
   .ProjectsLine {
     height: 4px;
-    width: 227px;
+    width: 200px;
     background-color: #5BB14B;
-    margin-left: 25px;
+    
   }
   .ProjectInformationParagraph {
     color: white;
@@ -724,11 +742,10 @@
     text-decoration: underline;
   }
   .ProjectOneInformation {
-    width: 50%;
+    width: 100%;
   }
   .ProjectOneImage {
     display: flex;
-    width: 50%;
     border: transparent;
     border-radius: 200px;
     filter: drop-shadow(0px 0px 20px #4f7244);
