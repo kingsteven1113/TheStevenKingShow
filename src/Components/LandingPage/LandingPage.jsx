@@ -18,6 +18,70 @@ import StayHealthy from '../../assets/StayHealthy.png'
 
 
 
+const OpenJFE = () => {
+  const JFE = document.getElementById("JFE");
+  const UXE = document.getElementById("UXE");
+  const SUXE = document.getElementById("SUXE");
+  if (JFE.classList.contains("JIclosed")) {
+    JFE.classList.remove("JIclosed");
+    JFE.classList.add("JIopen");
+    UXE.classList.add("JIclosed");
+    SUXE.classList.add("JIclosed");
+    
+    
+    
+  }
+  else {
+    JFE.classList.add("JIclosed");
+    JFE.classList.remove("JIopen");
+    UXE.classList.add("JIclosed");
+    SUXE.classList.add("JIclosed");
+    
+  }
+}
+
+const OpenUXE = () => {
+  const JFE = document.getElementById("JFE");
+  const UXE = document.getElementById("UXE");
+  const SUXE = document.getElementById("SUXE");
+  if (UXE.classList.contains("JIclosed")) {
+    UXE.classList.remove("JIclosed");
+    UXE.classList.add("JIopen");
+    JFE.classList.add("JIclosed");
+    SUXE.classList.add("JIclosed");
+    
+    
+    
+  }
+  else {
+    UXE.classList.add("JIclosed");
+    UXE.classList.remove("JIopen");
+    JFE.classList.add("JIclosed");
+    SUXE.classList.add("JIclosed");
+    
+  }
+}
+
+const OpenSUXE = () => {
+  const JFE = document.getElementById("JFE");
+  const UXE = document.getElementById("UXE");
+  const SUXE = document.getElementById("SUXE");
+  if (SUXE.classList.contains("JIclosed")) {
+    SUXE.classList.remove("JIclosed");
+    SUXE.classList.add("JIopen");
+    JFE.classList.add("JIclosed");
+    UXE.classList.add("JIclosed");
+    
+    
+  }
+  else {
+    SUXE.classList.add("JIclosed");
+    SUXE.classList.remove("JIopen");
+    JFE.classList.add("JIclosed");
+    UXE.classList.add("JIclosed");
+    
+  }
+}
 
 
 const LandingPage = () => {
@@ -128,19 +192,19 @@ const LandingPage = () => {
           <h2>Aspirations</h2>
           <div className="ProjectsLine"></div>
         </div>
-        <div id='accordion' className="AspirationsInformation panel-group">
-          <div className="AspirationOne panel panel-default">
-            <div className="JobTitle panel-heading">
-            <h4 className='panel-title'>Jr Front End Engineer</h4>
+        <div id='accordion' className="AspirationsInformation ">
+          <div className="AspirationOne">
+            <div className="JobTitle">
+            <h4>Jr Front End Engineer</h4>
             </div>
             <div className='TimelineButtonContainer'>
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><i class="material-icons">&#xe148;</i></a>
+            <i class="material-icons" onClick={OpenJFE}>&#xe148;</i>
             <div className="TimelineOne">
               <h4 style={{margin: "0"}}>Right <br></br> Now</h4>
             </div>
             </div>
           </div>
-          <div id="collapse1" class="JobInfo panel-collapse collapse in">
+          <div id="JFE" class="JobInfo JIclosed">
             <h5>Jr. Front End Engineer</h5>
             <br />
             <h6 style={{marginTop: "30px"}}>What I am looking for from this role:</h6>
@@ -157,13 +221,13 @@ const LandingPage = () => {
             <h4 className='panel-title'>UX Engineer</h4>
             </div>
             <div className='TimelineButtonContainer'>
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"><i class="material-icons">&#xe148;</i></a>
+            <i onClick={OpenUXE} class="material-icons">&#xe148;</i>
             <div className="TimelineOne">
               <h4 style={{margin: "0"}}>In 1 - 3 <br></br> Years</h4>
             </div>
             </div>
           </div>
-          <div id="collapse2" class="JobInfo panel-collapse collapse in">
+          <div id="UXE" class="JobInfo JIclosed">
             <h5>UX Engineer</h5>
             <br />
             <h6 style={{marginTop: "30px"}}>What I am looking for from this role:</h6>
@@ -181,14 +245,14 @@ const LandingPage = () => {
         Senior UX Engineer</h4>
             </div>
             <div className='TimelineButtonContainer'>
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"><i class="material-icons">&#xe148;</i></a>
+            <i onClick={OpenSUXE} class="material-icons">&#xe148;</i>
             <div className="TimelineOne">
               <h4 style={{margin: "0"}}>In 5 - 10 <br></br> Years</h4>
             </div>
             </div>
             
           </div>
-          <div id="collapse3" class="JobInfo panel-collapse collapse in">
+          <div id="SUXE" class="JobInfo JIclosed">
             <h5>Senior UX Engineer</h5>
             <br />
             <h6 style={{marginTop: "30px"}}>What I am looking for from this role:</h6>

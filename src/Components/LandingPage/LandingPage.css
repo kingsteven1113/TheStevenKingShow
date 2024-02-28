@@ -399,25 +399,23 @@
         padding-top: 20px;
       }
     
-      .AspirationOne a {
-        padding-right: 20px;
-      }
-    
-      .AspirationTwo a {
-        padding-right: 20px;
-      }
-      .AspirationThree a {
-        padding-right: 20px;
-      }
-    
       .AspirationTwo i {
         font-size: 100px;
+        color: #fff;
+        padding-right: 20px;
+        cursor: pointer;
       }
       .AspirationThree i {
         font-size: 100px;
+        color: #fff;
+        padding-right: 20px;
+        cursor: pointer;
       }
       .AspirationOne i {
         font-size: 100px;
+        color: #fff;
+        padding-right: 20px;
+        cursor: pointer;
       }
     
       .AspirationThree {
@@ -433,39 +431,41 @@
         margin: 0;
       }
     
-      @keyframes resize {
-        from {width: 0%; display: none; color: #e0e0e0;}
+      @keyframes open {
+        from {width: 0%; color: #e0e0e0;}
         to {width: 80%; color: #000;}
       }
+
+      @keyframes close {
+        from {width: 80%; color: #000; padding: 25px;}
+        to {width: 0%; display: none; color: #e0e0e0; padding: 0px;}
+      }
     
-    .panel-collapse { 
-      display: none;
-      resize: none;
+    .JIclosed { 
+      display: block;
+      height: 60vh;
+      width: 0%;
+      animation-name: close;
+      animation-direction: normal;
+      animation-duration: 1.25s;
     }
-    .panel-collapse:target { 
+    .JIopen{ 
       display: block;
       width: 80%;
       height: 60vh;
-      animation-name: resize;
+      animation-name: open;
       animation-duration: 1.25s;
       animation-direction: normal;
+      padding: 25px;
     }
-    #collapse1 {
-      width: 80%;
-    }
-    #collapse2 {
-      width: 80%;
-    }
-    #collapse3 {
-      width: 80%;
-    }
+    
     a {
       color: #fff;
       filter: drop-shadow(none);
     }
     
     .JobInfo {
-      padding: 25px;
+      
       background-color: #e0e0e0;
       overflow: hidden;
     }
