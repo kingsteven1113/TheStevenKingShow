@@ -91,6 +91,13 @@
   
   }
 
+  .ContactButton:hover {
+    background-color: greenyellow;
+  }
+  .ContactButton2 {
+    display: none;
+  }
+
   .Burger {
     font-size: 24px;
     fill: #fff;
@@ -121,7 +128,7 @@
     position: sticky;
     top: 10px;
     z-index: 100;
-    background-color: #00000090;
+    background-color: #00000098;
     border-radius: 50px;
       
     }
@@ -140,8 +147,7 @@
     }
     .NavBar li {
       display: inline;
-      padding-right: 65px;
-      padding-left: 65px;
+      
       font-family: 'Jost', sans-serif;
       font-size: 16px;
       font-weight: 700;
@@ -200,31 +206,15 @@
       font-weight: 800;
       text-transform: uppercase;
       letter-spacing: 3px;
-      display: none;
-    
-    }
-    .ContactButton2 {
-      background-color: white;
-      border-radius: 0px 0px 30px 30px;
-      color: #282828;
-      font-family: 'Jost', sans-serif;
-      padding-top: 15px;
-      padding-bottom: 15px;
-      padding-right: 30px;
-      padding-left: 30px;
-      font-size: 16px;
-      font-weight: 800;
-      text-transform: uppercase;
-      letter-spacing: 3px;
-      text-align: center;
       
     
     }
-    .ContactButton2:hover {
-      background-color: #282828;
-      color: #fff;
 
+    .ContactButton:hover {
+      background-color: greenyellow;
     }
+    
+    
 
     .Burger {
       font-size: 40px;
@@ -236,10 +226,8 @@
 
 
     .MobileNav {
-      position: sticky;
-      top: 98px;
-      z-index: 100;
-      margin: 0px 50px 50px 50px;
+      width: 100%;
+      
     }
     
     .MobileNav nav {
@@ -247,17 +235,28 @@
       flex-direction: column;
       gap: 10px;
       list-style: none;
-      background-color: #00000090;
       border-radius: 0px 0px 30px 30px;
-      text-align: center;
+      text-align: left;
       font-family: 'Jost', sans-serif;
-      padding-top: 10px;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      
     }
 
     .MobileNav li {
       font-size: 20px;
       font-weight: 500;
       color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      padding-bottom: 10px;
+      padding-top: 10px;;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 2px dashed greenyellow;
+      width: 75%;
+      
     }
     .MobileNav li:hover {
       color:greenyellow;
